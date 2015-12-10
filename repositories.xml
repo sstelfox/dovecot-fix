@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[dovecot-fix]]></name>
+    <description lang="en"><![CDATA[Dovecot Fix]]></description>
+    <homepage>https://github.com/sstelfox/dovecot-fix</homepage>
+    <owner type="person">
+      <email>sstelfox@bedroomprogrammers.net</email>
+      <name><![CDATA[Sam Stelfox]]></name>
+    </owner>
+    <source type="git">git://github.com/sstelfox/dovecot-fix.git</source>
+    <feed>https://github.com/sstelfox/dovecot-fix/commits/master.atom</feed>
+  </repo>
+</repositories>
