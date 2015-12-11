@@ -1,0 +1,11 @@
+--- src/auth/mech-gssapi.c	2015-09-23 08:59:40.000000000 -0400
++++ src/auth/mech-gssapi.c	2015-12-10 18:58:09.370028630 -0500
+@@ -162,7 +162,7 @@
+ 
+ 	principal_name = t_str_new(128);
+ 	str_append(principal_name, service_name);
+-	str_append_c(principal_name, '@');
++	str_append_c(principal_name, '/');
+ 	str_append(principal_name, request->set->gssapi_hostname);
+ 
+ 	auth_request_log_debug(request, AUTH_SUBSYS_MECH,

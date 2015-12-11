@@ -81,6 +81,7 @@ pkg_setup() {
 
 src_prepare() {
 	epatch "${FILESDIR}/${PN}-10-ssl.patch"
+	epatch "${FILESDIR}/${PN}-20-gssapi-principal-fix.patch"
 	epatch_user
 }
 
